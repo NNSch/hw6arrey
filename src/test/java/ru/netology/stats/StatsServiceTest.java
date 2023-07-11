@@ -23,6 +23,7 @@ class StatsServiceTest {
         long expected = 180 / 12;
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testMonthMax() {
         StatsService service = new StatsService();
@@ -31,6 +32,7 @@ class StatsServiceTest {
         long expected = 8;
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testMonthMin() {
         StatsService service = new StatsService();
@@ -39,6 +41,7 @@ class StatsServiceTest {
         long expected = 9;
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testAverageBelow() {
         StatsService service = new StatsService();
@@ -47,6 +50,7 @@ class StatsServiceTest {
         long expected = 5;
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testAverageAbove() {
         StatsService service = new StatsService();
